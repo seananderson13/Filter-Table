@@ -1,0 +1,30 @@
+#myInput {
+  font-family: Merriweather, Arial, sans-serif;
+  padding: 5px;
+  margin: 5px 0px;
+  border: 2px solid #7193E0;
+}  
+  
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+  
+h2, thead {
+  font-family: Montserrat, Arial, sans-serif;
+  font-weight: 700;
+}
+  
+tbody tr, p {
+  font-family: Merriweather, Arial, sans-serif; 
+}
+
+td, th {
+  border: 2px solid #7193e0;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #eee;
+}
