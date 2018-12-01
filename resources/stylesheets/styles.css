@@ -1,8 +1,10 @@
 #myInput {
   font-family: Merriweather, Arial, sans-serif;
-  padding: 5px;
+  font-size: 1.2rem;
+  padding: 10px;
   margin: 5px 0px;
   border: 2px solid #7193E0;
+  width: 50%;
 }  
   
 table {
@@ -16,7 +18,7 @@ h2, thead {
 }
   
 tbody tr, p {
-  font-family: Merriweather, Arial, sans-serif; 
+  font-family: Merriweather, Times New Roman, serif;
 }
 
 td, th {
@@ -25,6 +27,6 @@ td, th {
   padding: 8px;
 }
 
-tr:nth-child(even) {
+.blank {
   background-color: #eee;
 }
